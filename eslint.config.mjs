@@ -19,6 +19,12 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+    rules:{
+      "react/react-no-unescaped-entities": "off",
+      "@typescript-eslint/quotes": "off",
+      "quotes":[0,"single", { "avoidEscape": true ,allowTemplateLiterals: true}],
+      "no-useless-escape": 0
+    }
   },
 ];
 
