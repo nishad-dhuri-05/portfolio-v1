@@ -26,6 +26,7 @@ const eslintConfig = [
       "@typescript-eslint/quotes": "off",
       "quotes": [0, "single", { avoidEscape: true, allowTemplateLiterals: true }],
       "no-useless-escape": 0,
+      "@typescript-eslint/no-explicit-any": "off",
     },
   },
 ];
